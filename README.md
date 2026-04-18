@@ -28,17 +28,17 @@ INSTALLATION
 1. Edit your composer.json in your project directory and paste this code in the group of repositories.
 ```{
       "type": "vcs",
-      "url": "git@github.com:hallowichig0/datetime_range_custom.git"
+      "url": "git@github.com:jaysonegarcia/datetime_range_custom.git"
 ```
 
 2. In your composer.json, search the installer-paths and add this line of codes to the group of installer-paths
 ```"web/modules/custom/{$name}/": ["type:drupal-custom-module"]```
 
 3. Install using the composer:
-```composer require 'hallowichig0/datetime_range_custom'```
+```composer require 'jaysonegarcia/datetime_range_custom'```
 
 4. You can clone the repository in the module/custom:
-```git clone https://github.com/hallowichig0/datetime_range_custom.git```
+```git clone https://github.com/jaysonegarcia/datetime_range_custom.git```
 
 
 MAINTAINERS
